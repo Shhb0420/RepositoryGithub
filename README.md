@@ -49,5 +49,5 @@
 Github mobile versi build, silahkan klik link dibawah ini.
 
 <a href="https://drive.google.com/file/d/1QGRvW4B0TA91W8D0sqpop_XMyA000xZR/view?usp=sharing">
-  <img src="https://img.shields.io/badge/Blanja%20Mobile-blue.svg?style=popout&logo=firefox"/>
+  <img src="https://img.shields.io/badge/Github%20Mobile-blue.svg?style=popout&logo=firefox"/>
 </a>
