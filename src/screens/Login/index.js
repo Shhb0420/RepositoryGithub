@@ -16,7 +16,7 @@ import Button from '../../components/Button';
 import {logo, octocat} from '../../assets';
 import axios from 'axios';
 
-const Login = () => {
+const Login = props => {
   const [username, setUsername] = useState('');
   const [user, setUser] = useState(false);
   const [repo, setRepo] = useState([]);
@@ -118,7 +118,11 @@ const Login = () => {
           </View>
         </View>
       ) : (
-        <View style={{marginVertical: 25, flexDirection: 'column'}}>
+        <View
+          style={{
+            marginVertical: 25,
+            flexDirection: 'column',
+          }}>
           <Image
             source={octocat}
             style={{width: 90, height: 90, alignSelf: 'center'}}
